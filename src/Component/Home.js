@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import "../styles/Home.css";
+import styles from "../styles/Home.module.css";
+
 function Home() {
   return (
-    <div className="Header">
+    <div className={styles.Header}>
       <div>
         <span
           style={{
@@ -13,10 +14,7 @@ function Home() {
             fontSize: "13px",
           }}
         >
-          <Link
-            to="Login.js"
-            style={{ textDecoration: "none", color: "white" }}
-          >
+          <Link to="/login" style={{ textDecoration: "none", color: "white" }}>
             로그인
           </Link>
           <span style={{ color: "white" }}>|</span>
@@ -25,7 +23,7 @@ function Home() {
           </Link>
         </span>
         <br></br>
-        <Link to="Home.js">
+        <Link to="/">
           <img
             style={{
               width: "280px",
@@ -38,20 +36,17 @@ function Home() {
         <span
           style={{ paddingLeft: "1250px", fontSize: "25px", color: "gray" }}
         >
-          <Link
-            to="Login.js"
-            style={{ color: "black", textDecoration: "none" }}
-          >
+          <Link to="/login" style={{ color: "black", textDecoration: "none" }}>
             <strong>프린터실</strong>
           </Link>
           |
-          <a href="Login.js" style={{ color: "black", textDecoration: "none" }}>
+          <Link to="/login" style={{ color: "black", textDecoration: "none" }}>
             <strong>자료실</strong>
-          </a>
+          </Link>
           |
-          <a href="Login.js" style={{ color: "black", textDecoration: "none" }}>
+          <Link to="/login" style={{ color: "black", textDecoration: "none" }}>
             <strong>게시판</strong>
-          </a>
+          </Link>
         </span>
         <br></br>
         <div
@@ -61,27 +56,27 @@ function Home() {
             height: "2px",
           }}
         ></div>
-        <table className="table">
+        <table className={styles.table}>
           <td>
-            <a className="img" href="Login.js">
-              <div className="scale">
-                <img src="img/정보관.PNG" id="info"></img>
+            <Link to="/login" className={styles.img}>
+              <div className={styles.scale}>
+                <img src="img/정보관.PNG" className={styles.info}></img>
               </div>
-            </a>
+            </Link>
           </td>
           <td>
-            <a className="img" href="Login.js">
-              <div className="scale">
-                <img src="img/지천관.jpg" id="jicheon"></img>
+            <Link to="/login" className={styles.img}>
+              <div className={styles.scale}>
+                <img src="img/지천관.jpg" className={styles.jicheon}></img>
               </div>
-            </a>
+            </Link>
           </td>
           <td>
-            <a className="img" href="Login.js">
-              <div className="scale">
-                <img src="img/건윤관.jpg" id="geon"></img>
+            <Link to="/login" className={styles.img}>
+              <div className={styles.scale}>
+                <img src="img/건윤관.jpg" className={styles.geon}></img>
               </div>
-            </a>
+            </Link>
           </td>
         </table>
         <div
@@ -92,31 +87,31 @@ function Home() {
           }}
         ></div>
         <br></br>
-        <table className="div">
+        <table className={styles.div}>
           <tr>
-            <td id="td1">
-              <a href="#" style={{ textDecoration: "none", color: "black" }}>
+            <td className={styles.td1}>
+              <Link to="#" style={{ textDecoration: "none", color: "black" }}>
                 공지사항
-              </a>
+              </Link>
             </td>
-            <td id="td1">
-              <a href="#" style={{ textDecoration: "none", color: "black" }}>
+            <td className={styles.td1}>
+              <Link to="#" style={{ textDecoration: "none", color: "black" }}>
                 공지사항
-              </a>
+              </Link>
             </td>
-            <td id="td1">
-              <a href="#" style={{ textDecoration: "none", color: "black" }}>
+            <td className={styles.td1}>
+              <Link to="#" style={{ textDecoration: "none", color: "black" }}>
                 공지사항
-              </a>
+              </Link>
             </td>
           </tr>
         </table>
         <br></br>
-        <div className="div2">
+        <div className={styles.div2}>
           공지사항
-          <div id="line2"></div>
+          <div className={styles.line2}></div>
         </div>
-        <div className="footer">
+        <div className={styles.footer}>
           <span
             style={{
               display: "block",
@@ -127,7 +122,7 @@ function Home() {
               paddingLeft: "20px",
             }}
           >
-            관리자:010-2597-1764 | kwj116@hanmail.net{" "}
+            관리자:010-2597-1764 | kwj116@hanmail.net
           </span>
         </div>
       </div>

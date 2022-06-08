@@ -55,8 +55,8 @@ body {
 .scale:hover {
   transform: scale(1.05);
 }
-#info {
-  padding-left: 50px;
+.info {
+  padding-left: 30px;
   height: 330px;
   width: 500px;
   object-fit: cover;
@@ -64,7 +64,7 @@ body {
   transform: scale(1);
 }
 
-#jicheon {
+.jicheon {
   object-fit: cover;
   padding-left: 30px;
   height: 330px;
@@ -72,7 +72,7 @@ body {
   filter: drop-shadow(4px 5px 4px gray);
 }
 
-#geon {
+.geon {
   height: 330px;
   width: 500px;
   padding-left: 30px;
@@ -95,11 +95,11 @@ body {
   width: 1200px;
   height: 200px;
 }
-#line1 {
+.line1 {
   height: 50px;
 }
 
-#line2 {
+.line2 {
   width: 750;
   height: 2px;
   background-color: grey;

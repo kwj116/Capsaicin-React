@@ -1,0 +1,111 @@
+.deu_logo {
+  position: relative;
+  left: 30%;
+  margin-top: 90px;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.id {
+  position: relative;
+  right: 40%;
+  font-size: 17px;
+  font-weight: 400;
+  width: 250px;
+  height: 30px;
+}
+
+.password {
+  position: relative;
+  right: 40%;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 15px;
+  width: 250px;
+  height: 30px;
+}
+
+.submit {
+  position: relative;
+  left: 90%;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  background-color: #4893b4;
+  width: 150px;
+  height: 87px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+  background-color: #43546d;
+  height: 50px;
+  width: 1920px;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  bottom: 0;
+}
+.container {
+  position: relative;
+  left: 20%;
+  box-shadow: 0 0 3px black;
+  text-align: start;
+  margin: auto;
+  border: 1px solid rgb(201, 198, 198);
+  width: 1200px;
+  height: 89px;
+  font-size: 20px;
+}
+
+.all {
+  position: relative;
+  left: 10%;
+}
+
+.container2 {
+  position: relative;
+  left: 20%;
+  box-shadow: 0 1px 2px black;
+  text-align: start;
+  margin: auto;
+  border: 1px solid rgb(201, 198, 198);
+  width: 1200px;
+  height: 328px;
+  font-size: 20px;
+}
+
+.container3 {
+  position: relative;
+  left: 20%;
+  box-shadow: 0 0 3px black;
+  text-align: start;
+  margin: auto;
+  border: 1px solid rgb(201, 198, 198);
+  width: 1200px;
+  height: 89px;
+  font-size: 20px;
+}
+
+.login_image {
+  position: relative;
+  left: 20%;
+  width: 230px;
+  float: left;
+  position: relative;
+  top: 90px;
+  left: 200px;
+}
+
+.logInForm {
+  position: relative;
+  left: 20%;
+  float: right;
+  padding-top: 90px;
+  padding-right: 600px;
+}

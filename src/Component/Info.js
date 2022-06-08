@@ -1,12 +1,11 @@
-import { Link } from "react-router-dom";
-import styles from "../styles/Login.module.css";
-
-function Login() {
+import { Component } from "react";
+import "../styles/Login.css";
+function Info() {
   return (
     <div>
       <br />
-      <div className={styles.deu_logo}>
-        <Link to="/">
+      <div className="deu_logo">
+        <a href="home.html">
           <img
             style={{
               width: "320px",
@@ -15,13 +14,13 @@ function Login() {
             }}
             src="img/3d.png"
           />
-        </Link>
+        </a>
         <br />
       </div>
-      <div className={styles.all}>
-        <div className={styles.container}>
+      <div id="all">
+        <div id="container">
           <h3
-            className={styles.login_text}
+            id="login_text"
             style={{
               textShadow: "1px 1px 2px black",
               paddingLeft: "50px",
@@ -31,32 +30,28 @@ function Login() {
             로그인
           </h3>
         </div>
-        <div className={styles.container2}>
-          <img className={styles.login_image} src="img/login.png"></img>
-          <form className={styles.logInForm}>
+        <div id="container2">
+          <img id="login_image" src="img/login.png"></img>
+          <form id="logInForm">
             <div style={{ position: "relative", top: "25px" }}>
               <div style={{ position: "absolute" }}>
                 <input
                   type="text"
                   placeholder="아이디를 입력하세요."
-                  className={styles.id}
+                  id="id"
                 ></input>
                 <input
                   type="text"
                   placeholder="비밀번호를 입력하세요."
-                  className={styles.password}
+                  id="password"
                 ></input>
               </div>
-              <input
-                type="submit"
-                value="로그인"
-                className={styles.submit}
-              ></input>
+              <input type="submit" value="로그인" id="submit"></input>
             </div>
           </form>
         </div>
-        <div className={styles.container} />
-        <div className={styles.footer}>
+        <div id="container" />
+        <div className="footer">
           <span
             style={{
               display: "block",
@@ -74,4 +69,5 @@ function Login() {
     </div>
   );
 }
+
 export default Login;
