@@ -1,0 +1,106 @@
+html,
+body {
+  margin: 0;
+  display: flex;
+}
+
+.Header {
+  background-color: #16345c;
+  height: 40px;
+  width: 1920px;
+  padding: 0px;
+  margin: 0px;
+}
+.App {
+  display: flexbox;
+  background-size: auto;
+}
+
+.Title {
+  padding: 7px;
+  text-align: end;
+  font-size: 0.89em;
+  background-color: rgb(6, 53, 95);
+  font-family: "Gothic A1", sans-serif;
+}
+
+.footer {
+  background-color: #43546d;
+  height: 50px;
+  width: 1920px;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  bottom: 0;
+}
+
+.table {
+  background-color: #f1f1f1;
+  padding-left: 30px;
+  height: 350px;
+  margin: auto;
+  width: 1920px;
+}
+
+.img {
+  width: 280px;
+  overflow: hidden;
+}
+
+.scale {
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.scale:hover {
+  transform: scale(1.05);
+}
+#info {
+  padding-left: 50px;
+  height: 330px;
+  width: 500px;
+  object-fit: cover;
+  filter: drop-shadow(4px 5px 4px gray);
+  transform: scale(1);
+}
+
+#jicheon {
+  object-fit: cover;
+  padding-left: 30px;
+  height: 330px;
+  width: 500px;
+  filter: drop-shadow(4px 5px 4px gray);
+}
+
+#geon {
+  height: 330px;
+  width: 500px;
+  padding-left: 30px;
+  filter: drop-shadow(4px 5px 4px gray);
+}
+
+.div {
+  box-shadow: 0 0 4px black;
+  text-align: center;
+  margin: auto;
+  border: 1px solid rgb(201, 198, 198);
+  width: 800px;
+  height: 60px;
+}
+
+.div2 {
+  box-shadow: 0 0 4px black;
+  margin: auto;
+  border: 1px solid rgb(201, 198, 198);
+  width: 1200px;
+  height: 200px;
+}
+#line1 {
+  height: 50px;
+}
+
+#line2 {
+  width: 750;
+  height: 2px;
+  background-color: grey;
+}
