@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  display: flex;
+}
+
+.Header {
+  background-color: #16345c;
+  height: 40px;
+  width: 1920px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer {
+  background-color: #43546d;
+  height: 50px;
+  width: 1920px;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  bottom: 0;
+}
+
+.img {
+  height: 250px;
+  width: 250px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+  position: relative;
+  left: 43.5%;
+}
+
+.container {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  position: absolute;
+  width: 900px;
+  height: 350px;
+  left: 510px;
+  top: 500px;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.upload {
+  position: relative;
+  top: 7%;
+  height: 35px;
+  width: 150px;
+  border-radius: 3px;
+}

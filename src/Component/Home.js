@@ -51,33 +51,36 @@ function Home() {
         <br></br>
         <div
           style={{
+            marginTop: "10px",
             backgroundColor: "#c4c0c0",
             width: "1920px",
             height: "2px",
           }}
         ></div>
         <table className={styles.table}>
-          <td>
-            <Link to="/login" className={styles.img}>
-              <div className={styles.scale}>
-                <img src="img/정보관.PNG" className={styles.info}></img>
-              </div>
-            </Link>
-          </td>
-          <td>
-            <Link to="/login" className={styles.img}>
-              <div className={styles.scale}>
-                <img src="img/지천관.jpg" className={styles.jicheon}></img>
-              </div>
-            </Link>
-          </td>
-          <td>
-            <Link to="/login" className={styles.img}>
-              <div className={styles.scale}>
-                <img src="img/건윤관.jpg" className={styles.geon}></img>
-              </div>
-            </Link>
-          </td>
+          <tbody>
+            <td>
+              <Link to="/info" className={styles.img}>
+                <div className={styles.scale}>
+                  <img src="img/정보관.PNG" className={styles.info}></img>
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to="/jicheon" className={styles.img}>
+                <div className={styles.scale}>
+                  <img src="img/지천관.jpg" className={styles.jicheon}></img>
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to="/geon" className={styles.img}>
+                <div className={styles.scale}>
+                  <img src="img/건윤관.jpg" className={styles.geon}></img>
+                </div>
+              </Link>
+            </td>
+          </tbody>
         </table>
         <div
           style={{

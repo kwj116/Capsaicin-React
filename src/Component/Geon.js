@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "../styles/Info.module.css";
-
-function Info() {
+function Geon() {
   function Print() {
     return (
       <table className={styles.printer}>
@@ -94,7 +93,7 @@ function Info() {
           }}
         ></div>
         <br></br>
-        <h1 style={{ textAlign: "center" }}>정보관</h1>
+        <h1 style={{ textAlign: "center" }}>건윤관</h1>
 
         <div
           style={{
@@ -128,4 +127,4 @@ function Info() {
   );
 }
 
-export default Info;
+export default Geon;

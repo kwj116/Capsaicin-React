@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0;
+  display: flex;
+}
+
+.Header {
+  background-color: #16345c;
+  height: 40px;
+  width: 1920px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.wrap {
+}
+.printer {
+  padding-top: 30px;
+  margin: auto;
+}
+
+.footer {
+  background-color: #43546d;
+  height: 50px;
+  width: 1920px;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  bottom: 0;
+}
+
+.img {
+  width: 280px;
+  overflow: hidden;
+}

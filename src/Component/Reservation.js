@@ -1,44 +1,10 @@
 import { Link } from "react-router-dom";
-import styles from "../styles/Info.module.css";
+import styles from "../styles/Reservation.module.css";
 
-function Info() {
-  function Print() {
-    return (
-      <table className={styles.printer}>
-        <thead>
-          <tbody>
-            <tr>
-              <Link to="/reservation">
-                <img src={printer}></img>
-                <img src={printer}></img>
-                <img src={printer}></img>
-                <img src={printer}></img>
-                <img src={printer}></img>
-                <img src={printer}></img>
-              </Link>
-            </tr>
-            <tr>
-              <Link to="/reservation">
-                <img src={printer}></img>
-                <img src={printer}></img>
-                <img src={printer}></img>
-                <img src={printer}></img>
-                <img src={printer}></img>
-                <img src={printer}></img>
-              </Link>
-            </tr>
-            <tr>
-              <Link to="/reservation">
-                <img src={printer}></img>
-                <img src={printer}></img>
-              </Link>
-            </tr>
-          </tbody>
-        </thead>
-      </table>
-    );
+function Reservation() {
+  function onClick() {
+    alert("UpLoad!");
   }
-  const printer = "img/프린터.png";
   return (
     <div className={styles.Header}>
       <div>
@@ -94,19 +60,17 @@ function Info() {
           }}
         ></div>
         <br></br>
-        <h1 style={{ textAlign: "center" }}>정보관</h1>
-
-        <div
-          style={{
-            backgroundColor: "black",
-            width: "1476px",
-            position: "relative",
-            left: "223px",
-            height: "2px",
-          }}
-        ></div>
-        <div className={styles.wrap}>
-          <Print></Print>
+        <h1 style={{ textAlign: "center" }}>예약</h1>
+        <img className={styles.img} src="img/프린터(예약Pg).png"></img>
+        <div className={styles.container}>
+          N번 프린터
+          <br></br>
+          <input
+            className={styles.upload}
+            type="file"
+            accept="image/gcode, image/gcode, image/gcode"
+            onClick={(e) => console.log(e)}
+          />
         </div>
 
         <div className={styles.footer}>
@@ -128,4 +92,4 @@ function Info() {
   );
 }
 
-export default Info;
+export default Reservation;

@@ -40,11 +40,13 @@ function Login() {
                   type="text"
                   placeholder="아이디를 입력하세요."
                   className={styles.id}
+                  id="id"
                 ></input>
                 <input
                   type="text"
                   placeholder="비밀번호를 입력하세요."
                   className={styles.password}
+                  id="password"
                 ></input>
               </div>
               <input
@@ -74,4 +76,5 @@ function Login() {
     </div>
   );
 }
+
 export default Login;
