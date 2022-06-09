@@ -113,6 +113,7 @@ function Home() {
         <div className={styles.div2}>
           공지사항
           <div className={styles.line2}></div>
+          <div></div>
         </div>
         <div className={styles.footer}>
           <span

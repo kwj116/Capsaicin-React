@@ -71,6 +71,17 @@ function Reservation() {
             accept="image/gcode, image/gcode, image/gcode"
             onClick={(e) => console.log(e)}
           />
+          <img className={styles.지코드} src="img/gcode.png"></img>
+          <div className={styles.대기자명단}>
+            대기자 명단 :
+            <div className={styles.대기자박스}>
+              <hr></hr>
+              <br></br>
+              <hr></hr>
+              <br></br>
+              <hr></hr>
+            </div>
+          </div>
         </div>
 
         <div className={styles.footer}>

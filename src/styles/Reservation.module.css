@@ -37,7 +37,7 @@ body {
   box-sizing: border-box;
   position: absolute;
   width: 900px;
-  height: 350px;
+  height: 400px;
   left: 510px;
   top: 500px;
   border: 1px solid #c6c6c6;
@@ -50,4 +50,31 @@ body {
   height: 35px;
   width: 150px;
   border-radius: 3px;
+}
+.지코드 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 60%;
+  right: 80%;
+  width: 130px;
+  height: 130px;
+  border-radius: 60%;
+  opacity: 80%;
+}
+
+.대기자명단 {
+  position: relative;
+  width: 120px;
+  height: 24px;
+  left: 57%;
+  top: 35%;
+  font-size: 18px;
+}
+
+.대기자박스 {
+  position: relative;
+  width: 210px;
+  height: 95px;
+  left: 110%;
 }
