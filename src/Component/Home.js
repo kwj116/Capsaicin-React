@@ -36,15 +36,24 @@ function Home() {
         <span
           style={{ paddingLeft: "1250px", fontSize: "25px", color: "gray" }}
         >
-          <Link to="/login" style={{ color: "black", textDecoration: "none" }}>
+          <Link
+            to="/login"
+            style={{ color: "black", textDecoration: "none", fontSize: "20px" }}
+          >
             <strong>프린터실</strong>
           </Link>
           |
-          <Link to="/login" style={{ color: "black", textDecoration: "none" }}>
+          <Link
+            to="/login"
+            style={{ color: "black", textDecoration: "none", fontSize: "20px" }}
+          >
             <strong>자료실</strong>
           </Link>
           |
-          <Link to="/login" style={{ color: "black", textDecoration: "none" }}>
+          <Link
+            to="/login"
+            style={{ color: "black", textDecoration: "none", fontSize: "20px" }}
+          >
             <strong>게시판</strong>
           </Link>
         </span>
@@ -90,6 +99,8 @@ function Home() {
           }}
         ></div>
         <br></br>
+        <br></br>
+        <br></br>
         <table className={styles.div}>
           <tr>
             <td className={styles.td1}>
@@ -109,6 +120,7 @@ function Home() {
             </td>
           </tr>
         </table>
+        <br></br>
         <br></br>
         <div className={styles.div2}>
           공지사항

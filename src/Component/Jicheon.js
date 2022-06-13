@@ -72,15 +72,24 @@ function Jicheon() {
         <span
           style={{ paddingLeft: "1250px", fontSize: "25px", color: "gray" }}
         >
-          <Link to="/login" style={{ color: "black", textDecoration: "none" }}>
+          <Link
+            to="/login"
+            style={{ color: "black", textDecoration: "none", fontSize: "20px" }}
+          >
             <strong>프린터실</strong>
           </Link>
           |
-          <Link to="/login" style={{ color: "black", textDecoration: "none" }}>
+          <Link
+            to="/login"
+            style={{ color: "black", textDecoration: "none", fontSize: "20px" }}
+          >
             <strong>자료실</strong>
           </Link>
           |
-          <Link to="/login" style={{ color: "black", textDecoration: "none" }}>
+          <Link
+            to="/login"
+            style={{ color: "black", textDecoration: "none", fontSize: "20px" }}
+          >
             <strong>게시판</strong>
           </Link>
         </span>

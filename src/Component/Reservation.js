@@ -2,8 +2,13 @@ import { Link } from "react-router-dom";
 import styles from "../styles/Reservation.module.css";
 
 function Reservation() {
-  function onClick() {
-    alert("UpLoad!");
+  const upload = document.querySelector("#deu");
+  console.log(upload);
+
+  function onClick(e) {
+    alert(".gcode 형식의 파일을 업로드 바랍니다");
+
+    upload.innerText = `${e.target.value}`;
   }
   return (
     <div className={styles.Header}>
@@ -39,15 +44,24 @@ function Reservation() {
         <span
           style={{ paddingLeft: "1250px", fontSize: "25px", color: "gray" }}
         >
-          <Link to="/login" style={{ color: "black", textDecoration: "none" }}>
+          <Link
+            to="/login"
+            style={{ color: "black", textDecoration: "none", fontSize: "20px" }}
+          >
             <strong>프린터실</strong>
           </Link>
           |
-          <Link to="/login" style={{ color: "black", textDecoration: "none" }}>
+          <Link
+            to="/login"
+            style={{ color: "black", textDecoration: "none", fontSize: "20px" }}
+          >
             <strong>자료실</strong>
           </Link>
           |
-          <Link to="/login" style={{ color: "black", textDecoration: "none" }}>
+          <Link
+            to="/login"
+            style={{ color: "black", textDecoration: "none", fontSize: "20px" }}
+          >
             <strong>게시판</strong>
           </Link>
         </span>
@@ -69,13 +83,13 @@ function Reservation() {
             className={styles.upload}
             type="file"
             accept="image/gcode, image/gcode, image/gcode"
-            onClick={(e) => console.log(e)}
+            onClick={((e) => console.log(e), onClick)}
           />
           <img className={styles.지코드} src="img/gcode.png"></img>
           <div className={styles.대기자명단}>
             대기자 명단 :
             <div className={styles.대기자박스}>
-              <hr></hr>
+              <hr id="deu"></hr>
               <br></br>
               <hr></hr>
               <br></br>

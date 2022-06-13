@@ -49,18 +49,15 @@ body {
   top: 7%;
   height: 35px;
   width: 150px;
-  border-radius: 3px;
 }
+
 .지코드 {
   position: absolute;
-  height: 150px;
-  width: 150px;
   top: 60%;
   right: 80%;
   width: 130px;
   height: 130px;
-  border-radius: 60%;
-  opacity: 80%;
+  border-radius: 100%;
 }
 
 .대기자명단 {
