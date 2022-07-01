@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Component/Home";
 import Login from "./Component/Login";
 import Info from "./Component/Info";
@@ -9,7 +9,7 @@ import Reservation from "./Component/Reservation";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <Router>
         <Switch>
           <Route path="/login">
             <Login />
@@ -30,7 +30,7 @@ function App() {
             <Reservation />
           </Route>
         </Switch>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
