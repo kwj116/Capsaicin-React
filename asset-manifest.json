@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Capsaicin-React/static/css/main.05653267.css",
-    "main.js": "/Capsaicin-React/static/js/main.940765b6.js",
+    "main.js": "/Capsaicin-React/static/js/main.86eb3b8c.js",
     "index.html": "/Capsaicin-React/index.html",
     "main.05653267.css.map": "/Capsaicin-React/static/css/main.05653267.css.map",
-    "main.940765b6.js.map": "/Capsaicin-React/static/js/main.940765b6.js.map"
+    "main.86eb3b8c.js.map": "/Capsaicin-React/static/js/main.86eb3b8c.js.map"
   },
   "entrypoints": [
     "static/css/main.05653267.css",
-    "static/js/main.940765b6.js"
+    "static/js/main.86eb3b8c.js"
   ]
 }
